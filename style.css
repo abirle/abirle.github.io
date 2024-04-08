@@ -1,11 +1,12 @@
 
 nav
 {
-    
+    position: fixed;
+    width: 100%;
     background: darkseagreen;
     padding-top: 15px;
     padding-bottom: 15px;
-    padding-left: 60%;
+    text-align: right;
     padding-right: 1.5%;
     
     font-family: "Roboto Condensed", sans-serif;
@@ -29,32 +30,45 @@ a.menu
 a:hover
 {
     color: beige; 
-    background: gray;
+    background: darkslategrey;
 }
 
 body
 {
     margin: 0%;
+    background: floralwhite;
 }
 
+div#portfolio
+{
+    padding-left: 1.5%;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: <weight>;
+    font-style: normal;
+    color: darkslategray;
+
+}
 
 div#profile
 {
-    /**padding: 20px;**/
-    height: 350px;
-    width: 350px;
+    padding-top: 100px;
+    height: 300px;
+    width: 300px;
     display: inline-block;
-    border: 2px blue solid;
     margin-left: 30px;
 }
 
 div#bio
 {
-    /**padding: 100px;**/
+    padding-left: 50px;
     width: 700px;
     height: 200px;
     display: inline-block;
-    border: 2px blue solid;
+    
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: <weight>;
+    font-style: normal;
+    color: darkslategray;
 
 }
 
